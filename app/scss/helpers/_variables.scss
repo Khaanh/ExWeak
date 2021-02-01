@@ -1,0 +1,27 @@
+// =====Basic colors=====
+$white: #fff;
+$black: #000;
+$gray: #ccc;
+$transp: transparent;
+
+// Custom colors...
+$bluewood: #374a5e;
+$text: $bluewood;
+$apple: #50be46;
+
+// =====Typography base=====
+$main-font: 'Roboto', Montserrat, sans-serif;
+$sec-font: 'Montserrat', sans-serif;
+$font-weight: 400;
+$font-size: 16px;
+$line-height: 1.5;
+$txt-color: $bluewood;
+
+// =====Typography buttons=====
+$btn-ff: $main-font;
+$btn-fz: 15px;
+$btn-lh: 16px;
+$btn-fw: 700;
+$btn-color: $apple;
+$btn-bgc: $transp;
+$btn-radius: 50px;

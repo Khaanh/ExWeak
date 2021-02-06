@@ -28,6 +28,13 @@
 	color: $txt-color;
 }
 
+.container-fluid {
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+	color: $txt-color;
+}
+
 // Btn up  Styles
 .back-to-top {
 	position: fixed;
@@ -67,4 +74,22 @@
 
 .js-no-scroll {
   overflow: hidden;
+}
+
+.section-block {
+	padding: 90px 0;
+}
+
+.section-title {
+	font-size: 46px;
+	line-height: 48px;
+	font-weight: 700;
+	margin-bottom: 55px;
+	text-align: center;
+	color: $apple;
+	font-family: $sec-font;
+
+	span {
+		color: $bluewood;
+	}
 }

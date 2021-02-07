@@ -1,10 +1,10 @@
 $(window).on('scroll', function() {
   // Active header
-  if( $(this).scrollTop() > 150) {
-    $('.header').addClass('is-fixed')
-  } else {
-    $('.header').removeClass('is-fixed')
-  }
+  // if( $(this).scrollTop() > 150) {
+  //   $('.header').addClass('is-fixed')
+  // } else {
+  //   $('.header').removeClass('is-fixed')
+  // }
   
   // Active btn to top
   if( $(this).scrollTop() > 300) {

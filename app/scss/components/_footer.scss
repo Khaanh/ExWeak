@@ -1,7 +1,48 @@
 .footer {
-  .container {
+  padding: 110px 0 28px;
+
+  .container {}
+
+  &__wrap {
+    text-align: left;
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__left {
+    padding-right: 64px;
+  }
+
+  &__top {
+    margin-bottom: 56px;
+  }
+
+  &__mid {
+    margin-bottom: 56px;
+    font-size: 12px;
+  }
+
+  &__left {}
+
+  &__illustr {
 
   }
+
+  &__btn {
+    padding: 12px 14px;
+  }
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 18px;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: left;
 }
 
 // Develop
